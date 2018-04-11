@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageUrl</key>
+		<string>https://content.usaa.com/mcontent/static_assets/Media/ent-appMyVehicles-card-carBuying-banner.jpg</string>
+		<key>title</key>
+		<string>Car Buying</string>
+		<key>subtext</key>
+		<string>Looking to Buy a Car?</string>
+		<key>cta</key>
+		<string>https://www.usaa.com/my/car-buying-selling/buying</string>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string>&quot;&quot;</string>
+		<key>title</key>
+		<string>Vehicle Value</string>
+		<key>subtext</key>
+		<string>Figure Out Your Vehicle&apos;s Value.</string>
+		<key>cta</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string>&quot;&quot;</string>
+		<key>title</key>
+		<string>Maintenance</string>
+		<key>subtext</key>
+		<string>Find a RepairPal Certified Shop.</string>
+		<key>cta</key>
+		<string>https://repairpal.com/usaa/estimate</string>
+	</dict>
+</array>
+</plist>

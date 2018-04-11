@@ -12,6 +12,16 @@
 		930B6AD2207B2A290021AF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930B6AD0207B2A290021AF95 /* Main.storyboard */; };
 		930B6AD4207B2A2A0021AF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930B6AD3207B2A2A0021AF95 /* Assets.xcassets */; };
 		930B6AD7207B2A2A0021AF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930B6AD5207B2A2A0021AF95 /* LaunchScreen.storyboard */; };
+		930B6AE0207B2AAD0021AF95 /* mocks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930B6ADF207B2AAD0021AF95 /* mocks.plist */; };
+		930B6AE2207B2B2B0021AF95 /* CarSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B6AE1207B2B2B0021AF95 /* CarSelectionViewController.swift */; };
+		930B6AE4207B2DBB0021AF95 /* VehicleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B6AE3207B2DBB0021AF95 /* VehicleDetailsViewController.swift */; };
+		930B6AE6207B44D20021AF95 /* VehicleCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B6AE5207B44D20021AF95 /* VehicleCellViewController.swift */; };
+		9363D7EB207DC407008D2BDC /* cards.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9363D7EA207DC407008D2BDC /* cards.plist */; };
+		9363D7ED207DC64B008D2BDC /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363D7EC207DC64B008D2BDC /* CardCollectionViewCell.swift */; };
+		9363D7EF207DC6BD008D2BDC /* ActionableCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9363D7EE207DC6BD008D2BDC /* ActionableCard.xib */; };
+		9363D7F1207DDADA008D2BDC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363D7F0207DDADA008D2BDC /* WebViewController.swift */; };
+		9363D7F4207DE51F008D2BDC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9363D7F3207DE51F008D2BDC /* WebKit.framework */; };
+		9392A5C3207C616E00F6F61A /* VehicleTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9392A5C2207C616E00F6F61A /* VehicleTableCellView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		930B6AD3207B2A2A0021AF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930B6AD6207B2A2A0021AF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930B6AD8207B2A2A0021AF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930B6ADF207B2AAD0021AF95 /* mocks.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mocks.plist; sourceTree = "<group>"; };
+		930B6AE1207B2B2B0021AF95 /* CarSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectionViewController.swift; sourceTree = "<group>"; };
+		930B6AE3207B2DBB0021AF95 /* VehicleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsViewController.swift; sourceTree = "<group>"; };
+		930B6AE5207B44D20021AF95 /* VehicleCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCellViewController.swift; sourceTree = "<group>"; };
+		9363D7EA207DC407008D2BDC /* cards.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = cards.plist; sourceTree = "<group>"; };
+		9363D7EC207DC64B008D2BDC /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		9363D7EE207DC6BD008D2BDC /* ActionableCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionableCard.xib; sourceTree = "<group>"; };
+		9363D7F0207DDADA008D2BDC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9363D7F3207DE51F008D2BDC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9392A5C2207C616E00F6F61A /* VehicleTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleTableCellView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9363D7F4207DE51F008D2BDC /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +59,10 @@
 		930B6AC0207B2A290021AF95 = {
 			isa = PBXGroup;
 			children = (
+				930B6ADE207B2A6C0021AF95 /* data */,
 				930B6ACB207B2A290021AF95 /* Example */,
 				930B6ACA207B2A290021AF95 /* Products */,
+				9363D7F2207DE51E008D2BDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +83,32 @@
 				930B6AD3207B2A2A0021AF95 /* Assets.xcassets */,
 				930B6AD5207B2A2A0021AF95 /* LaunchScreen.storyboard */,
 				930B6AD8207B2A2A0021AF95 /* Info.plist */,
+				930B6AE1207B2B2B0021AF95 /* CarSelectionViewController.swift */,
+				930B6AE3207B2DBB0021AF95 /* VehicleDetailsViewController.swift */,
+				930B6AE5207B44D20021AF95 /* VehicleCellViewController.swift */,
+				9392A5C2207C616E00F6F61A /* VehicleTableCellView.xib */,
+				9363D7EC207DC64B008D2BDC /* CardCollectionViewCell.swift */,
+				9363D7EE207DC6BD008D2BDC /* ActionableCard.xib */,
+				9363D7F0207DDADA008D2BDC /* WebViewController.swift */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		930B6ADE207B2A6C0021AF95 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				930B6ADF207B2AAD0021AF95 /* mocks.plist */,
+				9363D7EA207DC407008D2BDC /* cards.plist */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		9363D7F2207DE51E008D2BDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9363D7F3207DE51F008D2BDC /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +169,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9363D7EB207DC407008D2BDC /* cards.plist in Resources */,
 				930B6AD7207B2A2A0021AF95 /* LaunchScreen.storyboard in Resources */,
+				9392A5C3207C616E00F6F61A /* VehicleTableCellView.xib in Resources */,
 				930B6AD4207B2A2A0021AF95 /* Assets.xcassets in Resources */,
+				9363D7EF207DC6BD008D2BDC /* ActionableCard.xib in Resources */,
+				930B6AE0207B2AAD0021AF95 /* mocks.plist in Resources */,
 				930B6AD2207B2A290021AF95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930B6AE2207B2B2B0021AF95 /* CarSelectionViewController.swift in Sources */,
 				930B6ACF207B2A290021AF95 /* ViewController.swift in Sources */,
+				930B6AE4207B2DBB0021AF95 /* VehicleDetailsViewController.swift in Sources */,
+				9363D7ED207DC64B008D2BDC /* CardCollectionViewCell.swift in Sources */,
+				9363D7F1207DDADA008D2BDC /* WebViewController.swift in Sources */,
+				930B6AE6207B44D20021AF95 /* VehicleCellViewController.swift in Sources */,
 				930B6ACD207B2A290021AF95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
