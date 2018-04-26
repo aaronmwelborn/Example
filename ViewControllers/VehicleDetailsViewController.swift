@@ -15,16 +15,13 @@ class VehicleDetailsViewController: UIViewController, UICollectionViewDelegate, 
     @IBOutlet weak var vehicleImage: UIImageView!
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let webViewSegue = "WebViewSegue"
-    let reuseIdentifier = "dashboardCard"
-    
     var vehicle: [String: Any]!
     var vehicleName: String?
     var cards = [Dictionary<String,Any>]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         collectionView.delegate = self
         collectionView.dataSource = self
         
@@ -40,7 +37,7 @@ class VehicleDetailsViewController: UIViewController, UICollectionViewDelegate, 
         vehicleLabel.text = ("\(year) \(make) \(model)").uppercased()
         vehicleVIN.text = vin.uppercased()
         
-        collectionView?.register(UINib(nibName: "ActionableCard", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
+        collectionView?.register(UINib(nibName: "ActionableCard", bundle: nil), forCellWithReuseIdentifier: reuseActionableCard)
         let filePath = Bundle.main.path(forResource: "cards", ofType: "plist")
         
         if let path = filePath {
@@ -76,7 +73,7 @@ class VehicleDetailsViewController: UIViewController, UICollectionViewDelegate, 
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! CardCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseActionableCard, for: indexPath) as! CardCollectionViewCell
         
         cell.layer.cornerRadius = 10
         
@@ -96,7 +93,7 @@ class VehicleDetailsViewController: UIViewController, UICollectionViewDelegate, 
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == webViewSegue {
+        if segue.identifier == segueWebView {
             let indexPath = sender as! NSIndexPath
             let card = cards[indexPath.row]
             let destinationViewController = segue.destination as! WebViewController
@@ -106,6 +103,6 @@ class VehicleDetailsViewController: UIViewController, UICollectionViewDelegate, 
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        performSegue(withIdentifier: webViewSegue, sender: indexPath)
+        performSegue(withIdentifier: segueWebView, sender: indexPath)
     }
 }

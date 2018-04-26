@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3E08EACE636FAE2A6DAA18 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C10D0349315460696D9975 /* Pods_Example.framework */; };
 		930B6ACD207B2A290021AF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B6ACC207B2A290021AF95 /* AppDelegate.swift */; };
-		930B6ACF207B2A290021AF95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B6ACE207B2A290021AF95 /* ViewController.swift */; };
 		930B6AD2207B2A290021AF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930B6AD0207B2A290021AF95 /* Main.storyboard */; };
 		930B6AD4207B2A2A0021AF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930B6AD3207B2A2A0021AF95 /* Assets.xcassets */; };
 		930B6AD7207B2A2A0021AF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930B6AD5207B2A2A0021AF95 /* LaunchScreen.storyboard */; };
-		930B6AE0207B2AAD0021AF95 /* mocks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930B6ADF207B2AAD0021AF95 /* mocks.plist */; };
 		930B6AE2207B2B2B0021AF95 /* CarSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B6AE1207B2B2B0021AF95 /* CarSelectionViewController.swift */; };
 		930B6AE4207B2DBB0021AF95 /* VehicleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B6AE3207B2DBB0021AF95 /* VehicleDetailsViewController.swift */; };
 		930B6AE6207B44D20021AF95 /* VehicleCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B6AE5207B44D20021AF95 /* VehicleCellViewController.swift */; };
@@ -21,18 +20,23 @@
 		9363D7EF207DC6BD008D2BDC /* ActionableCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9363D7EE207DC6BD008D2BDC /* ActionableCard.xib */; };
 		9363D7F1207DDADA008D2BDC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363D7F0207DDADA008D2BDC /* WebViewController.swift */; };
 		9363D7F4207DE51F008D2BDC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9363D7F3207DE51F008D2BDC /* WebKit.framework */; };
+		9363D7F6207EAC21008D2BDC /* UserSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363D7F5207EAC21008D2BDC /* UserSelectionViewController.swift */; };
 		9392A5C3207C616E00F6F61A /* VehicleTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9392A5C2207C616E00F6F61A /* VehicleTableCellView.xib */; };
+		93B9C295207EBEF700B0A95F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9C294207EBEF700B0A95F /* Constants.swift */; };
+		93B9C2972080638200B0A95F /* AddMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9C2962080638200B0A95F /* AddMemberViewController.swift */; };
+		93E1E57C20919063004D997A /* brand-banner-generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E1E57B20919063004D997A /* brand-banner-generic.png */; };
+		93E1E57E209194F3004D997A /* usaa-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E1E57D209194F3004D997A /* usaa-logo.png */; };
+		93E1E5802091991A004D997A /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1E57F2091991A004D997A /* LaunchScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		586A5544CF3A3EBB1237920A /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		930B6AC9207B2A290021AF95 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930B6ACC207B2A290021AF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		930B6ACE207B2A290021AF95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		930B6AD1207B2A290021AF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		930B6AD3207B2A2A0021AF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930B6AD6207B2A2A0021AF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930B6AD8207B2A2A0021AF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		930B6ADF207B2AAD0021AF95 /* mocks.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = mocks.plist; sourceTree = "<group>"; };
 		930B6AE1207B2B2B0021AF95 /* CarSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelectionViewController.swift; sourceTree = "<group>"; };
 		930B6AE3207B2DBB0021AF95 /* VehicleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailsViewController.swift; sourceTree = "<group>"; };
 		930B6AE5207B44D20021AF95 /* VehicleCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCellViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +45,16 @@
 		9363D7EE207DC6BD008D2BDC /* ActionableCard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionableCard.xib; sourceTree = "<group>"; };
 		9363D7F0207DDADA008D2BDC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		9363D7F3207DE51F008D2BDC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9363D7F5207EAC21008D2BDC /* UserSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionViewController.swift; sourceTree = "<group>"; };
 		9392A5C2207C616E00F6F61A /* VehicleTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleTableCellView.xib; sourceTree = "<group>"; };
+		93B9C292207EBD7A00B0A95F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B9C294207EBEF700B0A95F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		93B9C2962080638200B0A95F /* AddMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemberViewController.swift; sourceTree = "<group>"; };
+		93E1E57B20919063004D997A /* brand-banner-generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brand-banner-generic.png"; sourceTree = "<group>"; };
+		93E1E57D209194F3004D997A /* usaa-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usaa-logo.png"; sourceTree = "<group>"; };
+		93E1E57F2091991A004D997A /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		ABF617BA2B7FEED78641D124 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8C10D0349315460696D9975 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,19 +63,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				9363D7F4207DE51F008D2BDC /* WebKit.framework in Frameworks */,
+				3B3E08EACE636FAE2A6DAA18 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D40C8495C6206B631546BB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				586A5544CF3A3EBB1237920A /* Pods-Example.debug.xcconfig */,
+				ABF617BA2B7FEED78641D124 /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		930B6AC0207B2A290021AF95 = {
 			isa = PBXGroup;
 			children = (
+				93E1E57620918BA3004D997A /* resources */,
+				9349DF3C207EAF4500532652 /* Nibs */,
+				9349DF3B207EAEFB00532652 /* ViewControllers */,
 				930B6ADE207B2A6C0021AF95 /* data */,
 				930B6ACB207B2A290021AF95 /* Example */,
 				930B6ACA207B2A290021AF95 /* Products */,
 				9363D7F2207DE51E008D2BDC /* Frameworks */,
+				5D40C8495C6206B631546BB2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,18 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				930B6ACC207B2A290021AF95 /* AppDelegate.swift */,
-				930B6ACE207B2A290021AF95 /* ViewController.swift */,
 				930B6AD0207B2A290021AF95 /* Main.storyboard */,
-				930B6AD3207B2A2A0021AF95 /* Assets.xcassets */,
 				930B6AD5207B2A2A0021AF95 /* LaunchScreen.storyboard */,
+				930B6AD3207B2A2A0021AF95 /* Assets.xcassets */,
 				930B6AD8207B2A2A0021AF95 /* Info.plist */,
-				930B6AE1207B2B2B0021AF95 /* CarSelectionViewController.swift */,
-				930B6AE3207B2DBB0021AF95 /* VehicleDetailsViewController.swift */,
-				930B6AE5207B44D20021AF95 /* VehicleCellViewController.swift */,
-				9392A5C2207C616E00F6F61A /* VehicleTableCellView.xib */,
-				9363D7EC207DC64B008D2BDC /* CardCollectionViewCell.swift */,
-				9363D7EE207DC6BD008D2BDC /* ActionableCard.xib */,
-				9363D7F0207DDADA008D2BDC /* WebViewController.swift */,
+				93B9C294207EBEF700B0A95F /* Constants.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -97,18 +117,52 @@
 		930B6ADE207B2A6C0021AF95 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				930B6ADF207B2AAD0021AF95 /* mocks.plist */,
 				9363D7EA207DC407008D2BDC /* cards.plist */,
 			);
 			path = data;
 			sourceTree = "<group>";
 		};
+		9349DF3B207EAEFB00532652 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				930B6AE1207B2B2B0021AF95 /* CarSelectionViewController.swift */,
+				930B6AE3207B2DBB0021AF95 /* VehicleDetailsViewController.swift */,
+				9363D7F0207DDADA008D2BDC /* WebViewController.swift */,
+				9363D7F5207EAC21008D2BDC /* UserSelectionViewController.swift */,
+				93B9C2962080638200B0A95F /* AddMemberViewController.swift */,
+				93E1E57F2091991A004D997A /* LaunchScreenViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9349DF3C207EAF4500532652 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				930B6AE5207B44D20021AF95 /* VehicleCellViewController.swift */,
+				9363D7EC207DC64B008D2BDC /* CardCollectionViewCell.swift */,
+				9392A5C2207C616E00F6F61A /* VehicleTableCellView.xib */,
+				9363D7EE207DC6BD008D2BDC /* ActionableCard.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
 		9363D7F2207DE51E008D2BDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93B9C292207EBD7A00B0A95F /* Alamofire.framework */,
 				9363D7F3207DE51F008D2BDC /* WebKit.framework */,
+				C8C10D0349315460696D9975 /* Pods_Example.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93E1E57620918BA3004D997A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				93E1E57D209194F3004D997A /* usaa-logo.png */,
+				93E1E57B20919063004D997A /* brand-banner-generic.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 930B6ADB207B2A2A0021AF95 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				9C1A800EE34D5557AC569716 /* [CP] Check Pods Manifest.lock */,
 				930B6AC5207B2A290021AF95 /* Sources */,
 				930B6AC6207B2A290021AF95 /* Frameworks */,
 				930B6AC7207B2A290021AF95 /* Resources */,
+				2BFE40D6E2EE74995DD010A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,30 +225,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E1E57E209194F3004D997A /* usaa-logo.png in Resources */,
 				9363D7EB207DC407008D2BDC /* cards.plist in Resources */,
 				930B6AD7207B2A2A0021AF95 /* LaunchScreen.storyboard in Resources */,
 				9392A5C3207C616E00F6F61A /* VehicleTableCellView.xib in Resources */,
+				93E1E57C20919063004D997A /* brand-banner-generic.png in Resources */,
 				930B6AD4207B2A2A0021AF95 /* Assets.xcassets in Resources */,
 				9363D7EF207DC6BD008D2BDC /* ActionableCard.xib in Resources */,
-				930B6AE0207B2AAD0021AF95 /* mocks.plist in Resources */,
 				930B6AD2207B2A290021AF95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BFE40D6E2EE74995DD010A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1A800EE34D5557AC569716 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		930B6AC5207B2A290021AF95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9363D7F6207EAC21008D2BDC /* UserSelectionViewController.swift in Sources */,
 				930B6AE2207B2B2B0021AF95 /* CarSelectionViewController.swift in Sources */,
-				930B6ACF207B2A290021AF95 /* ViewController.swift in Sources */,
 				930B6AE4207B2DBB0021AF95 /* VehicleDetailsViewController.swift in Sources */,
+				93B9C2972080638200B0A95F /* AddMemberViewController.swift in Sources */,
 				9363D7ED207DC64B008D2BDC /* CardCollectionViewCell.swift in Sources */,
 				9363D7F1207DDADA008D2BDC /* WebViewController.swift in Sources */,
 				930B6AE6207B44D20021AF95 /* VehicleCellViewController.swift in Sources */,
 				930B6ACD207B2A290021AF95 /* AppDelegate.swift in Sources */,
+				93E1E5802091991A004D997A /* LaunchScreenViewController.swift in Sources */,
+				93B9C295207EBEF700B0A95F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +433,7 @@
 		};
 		930B6ADC207B2A2A0021AF95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586A5544CF3A3EBB1237920A /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -352,6 +452,7 @@
 		};
 		930B6ADD207B2A2A0021AF95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF617BA2B7FEED78641D124 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

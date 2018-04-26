@@ -17,7 +17,7 @@ class WebViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+                
         urlLabel.text = urlString
         let url = URL(string: urlString)
         

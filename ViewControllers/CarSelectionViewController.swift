@@ -10,9 +10,9 @@ import UIKit
 
 class CarSelectionViewController: UITableViewController {
 
-    let CellIdentifier = "vehicleIdentifier"
-    let SegueVehiclesViewController = "VehicleDetailsViewController"
+    @IBOutlet var navigationBar: UINavigationBar!
     
+    var memberId = ""
     var vehicles = [Dictionary<String,Any>]()
     
     
@@ -22,14 +22,14 @@ class CarSelectionViewController: UITableViewController {
         tableView.dataSource = self
         title = "Vehicles"
         
-        tableView.register(UINib(nibName: "VehicleTableCellView", bundle: nil), forCellReuseIdentifier: CellIdentifier)
+        tableView.register(UINib(nibName: "VehicleTableCellView", bundle: nil), forCellReuseIdentifier: reuseVehicleTitleCell)
         self.tableView.separatorStyle = .none
         
-        let filePath = Bundle.main.path(forResource: "mocks", ofType: "plist")
-        
-        if let path = filePath {
-            vehicles = NSArray(contentsOfFile: path)! as! [Dictionary<String, String>]
-        }
+//        let filePath = Bundle.main.path(forResource: "mocks", ofType: "plist")
+//        
+//        if let path = filePath {
+//            vehicles = NSArray(contentsOfFile: path)! as! [Dictionary<String, String>]
+//        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,7 +46,7 @@ class CarSelectionViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Dequeue Resuable Cell
-        let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifier, for: indexPath) as! VehicleCellViewController
+        let cell = tableView.dequeueReusableCell(withIdentifier: reuseVehicleTitleCell, for: indexPath) as! VehicleCellViewController
         let vehicle = vehicles[indexPath.row]
         
         if let year = vehicle["year"] as? String,
@@ -63,7 +63,7 @@ class CarSelectionViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == SegueVehiclesViewController {
+        if segue.identifier == segueVehicleDetailsViewController {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let vehicle = vehicles[indexPath.row]
                 let destinationViewController = segue.destination as! VehicleDetailsViewController
@@ -73,7 +73,7 @@ class CarSelectionViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: SegueVehiclesViewController, sender: self)
+        performSegue(withIdentifier: segueVehicleDetailsViewController, sender: self)
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
@@ -109,3 +109,4 @@ extension UIImageView {
         downloadedFrom(url: url)
     }
 }
+
